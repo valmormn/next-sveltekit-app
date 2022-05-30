@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+section {
+  padding: 12px;
+  max-width: 1200px;
+}

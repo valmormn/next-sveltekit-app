@@ -1,45 +1,123 @@
 <script>
-  import Header from '$lib/header/Header.svelte';
-  import '../app.css';
+  import Header from "$lib/layout/header/Header.svelte";
+  // import Main from '$lib/layout/main/Main.svelte';
+  import Footer from "$lib/layout/footer/Footer.svelte";
+
+  import "../app.css";
+  import "$style/style.css";
+  import { onMount } from "svelte";
+
+  
+
+  onMount(() => {
+    const toggleAside = () => {
+    console.log("toggleAside");
+    let aside = {};
+    aside.el = document.getElementById("aside");
+    aside.display = aside.el.style.display;
+
+    let asideWidth = aside.el.offsetWidth;
+
+    if (aside.display === "none" || aside.el.style.width === "0px") {
+      aside.el.style.display = "block";
+      // content.style.paddingLeft = "240px";
+      aside.el.style.width = "auto";
+
+      let asideWidth = aside.el.offsetWidth;
+      console.log(asideWidth);
+      document.getElementById("content").style.width = `calc(100% - ${asideWidth + 12}px)`;
+      document.getElementById("main").style.justifyContent = "flex-end";
+    } else {
+      // aside.el.style.display = "none";
+      aside.el.style.width = "0px";
+      let content = document.getElementById("content");
+      content.style.paddingLeft = "0px";
+      document.getElementById("content").style.width = `100%`;
+    }
+  };
+    // toggleAside();
+    document.getElementById("toggle-a").onclick = (e) => {
+      e.preventDefault();
+      toggleAside();
+    };
+  });
 </script>
+
+<svelte:head>
+  <!-- <link rel="stylesheet" href="/tutorial/dark-theme.css"> -->
+  <title>Valmor Nascimento</title>
+</svelte:head>
 
 <Header />
 
-<main>
-  <slot />
+<!-- <Main /> -->
+
+<main id="main">
+  <aside id="aside" style="display: none;" class="bg-base-300">
+    <ul class="menu bg-base-300 w-56">
+      <li><a href="/">Home</a></li>
+      <li><a href="/auth" class="">Auth</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </aside>
+  <content id="content">
+    <slot />
+  </content>
 </main>
 
-<footer>
-  <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
+<Footer />
 
 <style>
   main {
-    flex: 1;
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row no-wrap;
+    justify-content: flex-start;
     align-items: center;
-    padding: 40px;
+    padding-top: 64px;
   }
 
-  footer a {
-    font-weight: bold;
+  aside {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    overflow: hidden;
+    position: fixed;
+    top: 65px;
+    left: 0;
+
+    padding: 12px 0;
+
+    min-height: 100vh;
   }
 
-  @media (min-width: 480px) {
-    footer {
-      padding: 40px 0;
-    }
+  content {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+
   }
+
+  #content * {
+    /* display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+
+    padding: 99px;
+    margin: 200px; */
+
+    /* display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 24px; */
+  }
+
+  
 </style>

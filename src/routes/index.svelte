@@ -3,42 +3,43 @@
 </script>
 
 <script>
-  import Counter from '$lib/Counter.svelte';
+  import Counter from "$lib/Counter.svelte";
 </script>
 
 <svelte:head>
-  <title>Home</title>
+  <title>Valmor Home</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-  <h1>
-    <div class="welcome">
-      <picture>
-        <source srcset="svelte-welcome.webp" type="image/webp" />
-        <img src="svelte-welcome.png" alt="Welcome" />
-      </picture>
+<section class="hero min-w-full min-h-screen bg-base-200">
+  <div class="hero-content text-center">
+    <h1>Hi, I'm Valmor.</h1>
+    <p>I'm an engineer and software developer who loves to build things.</p>
+
+    <div class="avatar">
+      <div class="w-64 rounded-full">
+        <img src="meb.jpeg" alt="Valmor" />
+      </div>
     </div>
-
-    to your new<br />SvelteKit app
-  </h1>
-
-  <h2>
-    try editing <strong>src/routes/index.svelte</strong>
-  </h2>
-
-  <Counter />
+  </div>
 </section>
 
 <style>
-  section {
+  section,
+  .hero-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex: 1;
   }
 
+  .avatar {
+    /* border-radius: 50%; */
+    filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.3));
+  }
+
+  /* 
   h1 {
     width: 100%;
   }
@@ -56,5 +57,5 @@
     height: 100%;
     top: 0;
     display: block;
-  }
+  } */
 </style>
