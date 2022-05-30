@@ -16,11 +16,13 @@
     <h1>Hi, I'm Valmor.</h1>
     <p>I'm an engineer and software developer who loves to build things.</p>
 
-    <div class="avatar">
-      <div class="w-64 rounded-full">
-        <img src="meb.jpeg" alt="Valmor" />
+    <a href="/about">
+      <div class="avatar">
+        <div class="w-64 rounded-full">
+          <img src="meb.jpeg" alt="Valmor" />
+        </div>
       </div>
-    </div>
+    </a>
   </div>
 </section>
 

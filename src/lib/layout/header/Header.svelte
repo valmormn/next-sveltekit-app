@@ -19,10 +19,12 @@
       <Icon data={bars} scale={2} />
     </a>
   </div>
-  <a href="/">
-    <Icon data={home} scale={2} />
-    <!-- <img src="logox.svg" alt="v logo" class="img"> -->
-  </a>
+  <div class="icons btn btn-ghost rounded-btn">
+    <a href="/">
+      <Icon data={home} scale={2} />
+      <!-- <img src="logox.svg" alt="v logo" class="img"> -->
+    </a>
+  </div>
 
   <div class="flex flex-1 justify-end px-2">
     <div class="flex  items-stretch">
@@ -64,10 +66,11 @@
   }
 
   .icons {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     /* justify-content: center; */
     /* align-items: center; */
+    padding: 0 0.5rem;
   }
 
   /* .img {

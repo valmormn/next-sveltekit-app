@@ -26,7 +26,7 @@
 </svelte:head>
 
 <section class="">
-  <h1>About</h1>
+  <!-- <h1>About</h1> -->
 
   <div class="avatar">
     <div class="w-64 rounded-full">
