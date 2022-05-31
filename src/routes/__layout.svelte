@@ -44,7 +44,7 @@
 </script>
 
 <SvelteSeo
-  title="Valmor Auth"
+  title="Valmor"
   description="Engineer, developer and tech savvy."
   openGraph={{
     title: "Valmor",
