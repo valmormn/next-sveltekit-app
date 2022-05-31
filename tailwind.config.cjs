@@ -29,6 +29,7 @@ module.exports = {
 		logs: true,
 		rtl: false,
 		themes: [
+      'cupcake',
 			'emerald',
 			'forest',
 			'cmyk',

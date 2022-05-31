@@ -1,4 +1,6 @@
 <script>
+  import SvelteSeo from "svelte-seo";
+
   import Header from "$lib/layout/header/Header.svelte";
   // import Main from '$lib/layout/main/Main.svelte';
   import Footer from "$lib/layout/footer/Footer.svelte";
@@ -7,34 +9,32 @@
   import "$style/style.css";
   import { onMount } from "svelte";
 
-  
-
   onMount(() => {
     const toggleAside = () => {
-    console.log("toggleAside");
-    let aside = {};
-    aside.el = document.getElementById("aside");
-    aside.display = aside.el.style.display;
-
-    let asideWidth = aside.el.offsetWidth;
-
-    if (aside.display === "none" || aside.el.style.width === "0px") {
-      aside.el.style.display = "block";
-      // content.style.paddingLeft = "240px";
-      aside.el.style.width = "auto";
+      console.log("toggleAside");
+      let aside = {};
+      aside.el = document.getElementById("aside");
+      aside.display = aside.el.style.display;
 
       let asideWidth = aside.el.offsetWidth;
-      console.log(asideWidth);
-      document.getElementById("content").style.width = `calc(100% - ${asideWidth + 12}px)`;
-      document.getElementById("main").style.justifyContent = "flex-end";
-    } else {
-      // aside.el.style.display = "none";
-      aside.el.style.width = "0px";
-      let content = document.getElementById("content");
-      content.style.paddingLeft = "0px";
-      document.getElementById("content").style.width = `100%`;
-    }
-  };
+
+      if (aside.display === "none" || aside.el.style.width === "0px") {
+        aside.el.style.display = "block";
+        // content.style.paddingLeft = "240px";
+        aside.el.style.width = "auto";
+
+        let asideWidth = aside.el.offsetWidth;
+        console.log(asideWidth);
+        document.getElementById("content").style.width = `calc(100% - ${asideWidth + 12}px)`;
+        document.getElementById("main").style.justifyContent = "flex-end";
+      } else {
+        // aside.el.style.display = "none";
+        aside.el.style.width = "0px";
+        let content = document.getElementById("content");
+        content.style.paddingLeft = "0px";
+        document.getElementById("content").style.width = `100%`;
+      }
+    };
     // toggleAside();
     document.getElementById("toggle-a").onclick = (e) => {
       e.preventDefault();
@@ -45,8 +45,27 @@
 
 <svelte:head>
   <!-- <link rel="stylesheet" href="/tutorial/dark-theme.css"> -->
-  <title>Valmor Nascimento</title>
+  <!-- <title>Valmor Nascimento</title> -->
 </svelte:head>
+
+<SvelteSeo
+  title="Valmor Auth"
+  description="Engineer, developer and tech savvy."
+  openGraph={{
+    title: "Valmor",
+    description: "Engineer, developer and tech savvy.",
+    url: "https://www.valmor.dev",
+    type: "website",
+    images: [
+      {
+        url: "https://www.valmor.dev/logo512.png",
+        width: 512,
+        height: 512,
+        alt: "Valmor Logo",
+      },
+    ],
+  }}
+/>
 
 <Header />
 
@@ -100,7 +119,6 @@
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-
   }
 
   #content * {
@@ -118,6 +136,4 @@
 
     padding: 24px; */
   }
-
-  
 </style>

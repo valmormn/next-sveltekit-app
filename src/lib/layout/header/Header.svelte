@@ -10,7 +10,7 @@
     html.dataset.theme = arg;
   }
 
-  let themes = ["emerald", "forest", "cmyk", "halloween", "dark", "mytheme"];
+  let themes = ["cupcake","emerald", "forest", "cmyk", "halloween", "dark", "mytheme"];
 </script>
 
 <header class="navbar mb-2 bg-base-300">

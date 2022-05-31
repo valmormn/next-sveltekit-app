@@ -1,10 +1,30 @@
 <script>
-   import Icon from "svelte-awesome";
+  import SvelteSeo from "svelte-seo";
+
+  import Icon from "svelte-awesome";
   // import { beer, comment, codeFork, camera, ban } from 'svelte-awesome/icons';
   import user from "svelte-awesome/icons/user";
   import key from "svelte-awesome/icons/key";
-
 </script>
+
+<SvelteSeo
+  title="Valmor Auth"
+  description="Authentication page for valmor.dev"
+  openGraph={{
+    title: "Valmor Auth",
+    description: "Engineer, developer and tech savvy.",
+    url: "https://www.valmor.dev",
+    type: "website",
+    images: [
+      {
+        url: "https://www.valmor.dev/logo512.png",
+        width: 512,
+        height: 512,
+        alt: "Valmor Logo",
+      },
+    ],
+  }}
+/>
 
 <section class="">
   <h1>Auth</h1>
@@ -46,33 +66,32 @@
 
 <style>
   section {
-  padding-top: 12px;
-  padding-bottom: 120px;
+    padding-top: 12px;
+    padding-bottom: 120px;
 
-  display: flex;
-  flex-direction: column;
-  /* // justify-content: center; */
-  align-items: center;
-  min-height: 100vh;
-}
+    display: flex;
+    flex-direction: column;
+    /* // justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+  }
 
-.img {
-  border-radius: 50%;
-  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.3));
-}
+  .img {
+    border-radius: 50%;
+    filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.3));
+  }
 
-.login-form {
-  max-width: 320px;
-}
+  .login-form {
+    max-width: 320px;
+  }
 
-.form-commands {
-  display: flex;
-  flex-direction: column;
-  margin: 12px 1px;
-}
+  .form-commands {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 1px;
+  }
 
-.btn {
-  margin: 12px;
-}
-
+  .btn {
+    margin: 12px;
+  }
 </style>
