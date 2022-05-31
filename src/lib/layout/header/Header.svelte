@@ -57,7 +57,7 @@
     overflow: show;
     position: fixed;
     top: 0;
-    z-index: 9;
+    z-index: 99;
 
   }
 
