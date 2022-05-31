@@ -87,7 +87,7 @@
     <h2>Education</h2>
     <ul>
       <li>
-        Universidade Estadual do Rio de Janeiro
+        Universidade do Estado do Rio de Janeiro
         <ul><li>Bachelor of Electrical Engineering - Evening shift Prev. 2024</li></ul>
       </li>
       <li>
