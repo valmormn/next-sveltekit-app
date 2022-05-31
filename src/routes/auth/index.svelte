@@ -8,11 +8,12 @@
 </script>
 
 <svelte:head>
+  <title>Valmor Authentication</title>
   <meta property="og:title" content="Valmor Auth" />
   <meta property="og:description" content="Authentication page for valmor.dev" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://valmor.dev" />
-  <meta property="og:image" content="%sveltekit.assets%/img/logo192.png" />
+  <meta property="og:image" content="https://valmor.dev/img/logo192.png" />
   <meta property="og:image:width" content="192" />
   <meta property="og:image:height" content="192" />
 </svelte:head>

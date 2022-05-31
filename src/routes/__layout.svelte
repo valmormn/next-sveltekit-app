@@ -44,11 +44,15 @@
 </script>
 
 <svelte:head>
+  <title>Valmor</title>
+  <meta name="description" content="Engineer, developer and tech savvy.">
+  <meta name="keyword" content="engineering, web, development">
+  <meta name="author" content="Valmor">
   <meta property="og:title" content="Valmor" />
   <meta property="og:description" content="Engineer, developer and tech savvy." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://valmor.dev" />
-  <meta property="og:image" content="%sveltekit.assets%/img/logo192.png" />
+  <meta property="og:image" content="https://valmor.dev/img/logo192.png" />
   <meta property="og:image:width" content="192" />
   <meta property="og:image:height" content="192" />
 </svelte:head>
