@@ -5,7 +5,7 @@
 
 
   // populated with data from the endpoint
-  export let id;
+  // export const id;
 
   onMount(async () => {
     // const response = await fetch(`/api/blog/post/${id}`);
