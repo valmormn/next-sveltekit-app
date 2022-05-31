@@ -13,12 +13,11 @@ module.exports = {
         h3: { fontSize: theme('fontSize.2xl') },
         h4: { fontSize: theme('fontSize.xl') },
         p: { fontSize: theme('fontSize.xl') }
-
       })
     }),
-		// require('@tailwindcss/typography'),
-		// require('@tailwindcss/forms'),
-		// require('@tailwindcss/line-clamp'),
+		require('@tailwindcss/typography'),
+		require('@tailwindcss/forms'),
+		require('@tailwindcss/line-clamp'),
 		require('daisyui')
 	],
 	daisyui: {

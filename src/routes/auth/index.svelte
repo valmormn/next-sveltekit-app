@@ -7,7 +7,17 @@
   import key from "svelte-awesome/icons/key";
 </script>
 
-<SvelteSeo
+<svelte:head>
+  <meta property="og:title" content="Valmor Auth" />
+  <meta property="og:description" content="Authentication page for valmor.dev" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://valmor.dev" />
+  <meta property="og:image" content="%sveltekit.assets%/img/logo192.png" />
+  <meta property="og:image:width" content="192" />
+  <meta property="og:image:height" content="192" />
+</svelte:head>
+
+<!-- <SvelteSeo
   title="Valmor Auth"
   description="Authentication page for valmor.dev"
   openGraph={{
@@ -24,7 +34,7 @@
       },
     ],
   }}
-/>
+/> -->
 
 <section class="">
   <h1>Auth</h1>

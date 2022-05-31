@@ -1,5 +1,5 @@
 <script context="module">
-  import SvelteSeo from "svelte-seo";
+  // import SvelteSeo from "svelte-seo";
 
   export const prerender = true;
 </script>
@@ -8,7 +8,7 @@
   // import Counter from "$lib/Counter.svelte";
 </script>
 
-<SvelteSeo
+<!-- <SvelteSeo
   title="Valmor"
   description="Engineer, developer and tech savvy."
   openGraph={{
@@ -25,12 +25,14 @@
       },
     ],
   }}
-/>
+/> -->
 
 <section class="hero min-w-full min-h-screen bg-base-200">
   <div class="hero-content text-center">
-    <h1>Hi, I'm Valmor.</h1>
-    <p>I'm an engineer and software developer who loves building things.</p>
+    <article class="prose">
+      <h1>Hi, I'm Valmor.</h1>
+      <p>I'm an engineer and software developer who loves building things.</p>
+    </article>
 
     <a href="/about">
       <div class="avatar dropShadow">

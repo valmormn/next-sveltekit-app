@@ -43,7 +43,17 @@
   });
 </script>
 
-<SvelteSeo
+<svelte:head>
+  <meta property="og:title" content="Valmor" />
+  <meta property="og:description" content="Engineer, developer and tech savvy." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://valmor.dev" />
+  <meta property="og:image" content="%sveltekit.assets%/img/logo192.png" />
+  <meta property="og:image:width" content="192" />
+  <meta property="og:image:height" content="192" />
+</svelte:head>
+
+<!-- <SvelteSeo
   title="Valmor"
   description="Engineer, developer and tech savvy."
   openGraph={{
@@ -60,7 +70,7 @@
       },
     ],
   }}
-/>
+/> -->
 
 <Header />
 

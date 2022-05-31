@@ -22,7 +22,17 @@
   export const prerender = true;
 </script>
 
-<SvelteSeo
+<svelte:head>
+  <meta property="og:title" content="Valmor" />
+  <meta property="og:description" content="About valmor.dev" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://valmor.dev" />
+  <meta property="og:image" content="%sveltekit.assets%/img/logo192.png" />
+  <meta property="og:image:width" content="192" />
+  <meta property="og:image:height" content="192" />
+</svelte:head>
+
+<!-- <SvelteSeo
   title="Valmor About"
   description="Engineer, developer and tech savvy."
   openGraph={{
@@ -39,7 +49,7 @@
       },
     ],
   }}
-/>
+/> -->
 
 <section class="">
   <!-- <h1>About</h1> -->
@@ -50,7 +60,7 @@
     </div>
   </div>
 
-  <div class="prose">
+  <article class="prose lg:prose-xl">
     <h2 style="text-align: center;">Hi, I'm Valmor.</h2>
 
     <p>
@@ -66,7 +76,7 @@
     <p>I'm always open for a nice chat. You can reach me on my social networks.</p>
 
     <!-- <p>Soldering iron is my favorite programming language.</p> -->
-  </div>
+  </article>
 
   <div class="social-networks grid-flow-col gap-4 md:place-self-center md:justify-self-end">
     <!-- svelte-ignore a11y-missing-attribute -->
