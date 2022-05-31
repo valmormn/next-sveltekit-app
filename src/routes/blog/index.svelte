@@ -1,10 +1,32 @@
 <script>
+  import SvelteSeo from "svelte-seo";
+
   import { onMount } from "svelte";
 
   onMount(() => {
     console.log("Blog");
   });
 </script>
+
+
+<SvelteSeo
+  title="Valmor Blog"
+  description="Sharing ideas and experiences in this blog."
+  openGraph={{
+    title: "Valmor",
+    description: "Engineer, developer and tech savvy.",
+    url: "https://www.valmor.dev",
+    type: "website",
+    images: [
+      {
+        url: "https://www.valmor.dev/img/logo512.png",
+        width: 512,
+        height: 512,
+        alt: "Valmor Logo",
+      },
+    ],
+  }}
+/>
 
 <section class="">
   <h1>Blog</h1>

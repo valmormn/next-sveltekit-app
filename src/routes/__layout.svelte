@@ -43,11 +43,6 @@
   });
 </script>
 
-<svelte:head>
-  <!-- <link rel="stylesheet" href="/tutorial/dark-theme.css"> -->
-  <!-- <title>Valmor Nascimento</title> -->
-</svelte:head>
-
 <SvelteSeo
   title="Valmor Auth"
   description="Engineer, developer and tech savvy."
@@ -58,7 +53,7 @@
     type: "website",
     images: [
       {
-        url: "https://www.valmor.dev/logo512.png",
+        url: "https://www.valmor.dev/img/logo512.png",
         width: 512,
         height: 512,
         alt: "Valmor Logo",

@@ -1,4 +1,6 @@
 <script context="module">
+  import SvelteSeo from "svelte-seo";
+
   import { browser, dev } from "$app/env";
 
   import Icon from "svelte-awesome";
@@ -21,9 +23,28 @@
 </script>
 
 <svelte:head>
-  <title>About</title>
-  <meta name="description" content="About this app" />
+  <!-- <title>About</title> -->
+  <!-- <meta name="description" content="About this app" /> -->
 </svelte:head>
+
+<SvelteSeo
+  title="Valmor About"
+  description="Engineer, developer and tech savvy."
+  openGraph={{
+    title: "Valmor",
+    description: "Engineer, developer and tech savvy.",
+    url: "https://www.valmor.dev",
+    type: "website",
+    images: [
+      {
+        url: "https://www.valmor.dev/logo512.png",
+        width: 512,
+        height: 512,
+        alt: "Valmor Logo",
+      },
+    ],
+  }}
+/>
 
 <section class="">
   <!-- <h1>About</h1> -->
@@ -46,7 +67,7 @@
       I've a degree in Naval Engineering having already worked on offshore construction. Currently
       I'm pursuing a second degree in Electronics Engineerig.
     </p>
-    
+
     <p>I'm always open for a nice chat. You can reach me on my social networks.</p>
 
     <!-- <p>Soldering iron is my favorite programming language.</p> -->
@@ -90,7 +111,8 @@
     margin: 0.5rem;
   }
 
-  .social-networks, .social-networks * {
+  .social-networks,
+  .social-networks * {
     margin: 1.5rem;
   }
 </style>

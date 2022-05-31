@@ -27,11 +27,6 @@
   }}
 />
 
-<svelte:head>
-  <!-- <title>Valmor Home</title> -->
-  <!-- <meta name="description" content="Svelte demo app" /> -->
-</svelte:head>
-
 <section class="hero min-w-full min-h-screen bg-base-200">
   <div class="hero-content text-center">
     <h1>Hi, I'm Valmor.</h1>

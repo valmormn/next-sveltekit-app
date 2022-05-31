@@ -12,12 +12,12 @@
   description="Authentication page for valmor.dev"
   openGraph={{
     title: "Valmor Auth",
-    description: "Engineer, developer and tech savvy.",
+    description: "Authentication page for valmor.dev",
     url: "https://www.valmor.dev",
     type: "website",
     images: [
       {
-        url: "https://www.valmor.dev/logo512.png",
+        url: "https://www.valmor.dev/img/logo512.png",
         width: 512,
         height: 512,
         alt: "Valmor Logo",
