@@ -35,7 +35,7 @@
     <a href="/about">
       <div class="avatar dropShadow">
         <div class="w-64 rounded-full">
-          <img src="meb.jpeg" alt="Valmor" />
+          <img src="img/meb.jpeg" alt="Valmor" />
         </div>
       </div>
     </a>

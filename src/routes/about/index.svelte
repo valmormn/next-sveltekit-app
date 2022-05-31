@@ -22,11 +22,6 @@
   export const prerender = true;
 </script>
 
-<svelte:head>
-  <!-- <title>About</title> -->
-  <!-- <meta name="description" content="About this app" /> -->
-</svelte:head>
-
 <SvelteSeo
   title="Valmor About"
   description="Engineer, developer and tech savvy."
@@ -51,7 +46,7 @@
 
   <div class="avatar">
     <div class="w-64 rounded-full">
-      <img src="meb.jpeg" alt="Valmor" />
+      <img src="img/meb.jpeg" alt="Valmor" />
     </div>
   </div>
 
