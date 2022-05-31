@@ -13,7 +13,7 @@
   openGraph={{
     title: "Valmor Auth",
     description: "Authentication page for valmor.dev",
-    url: "https://www.valmor.dev",
+    url: "https://www.valmor.dev/auth",
     type: "website",
     images: [
       {

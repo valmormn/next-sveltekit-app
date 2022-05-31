@@ -28,7 +28,7 @@
   openGraph={{
     title: "Valmor",
     description: "Engineer, developer and tech savvy.",
-    url: "https://www.valmor.dev",
+    url: "https://www.valmor.dev/about",
     type: "website",
     images: [
       {

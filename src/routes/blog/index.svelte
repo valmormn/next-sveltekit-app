@@ -14,12 +14,12 @@
   description="Sharing ideas and experiences in this blog."
   openGraph={{
     title: "Valmor",
-    description: "Engineer, developer and tech savvy.",
-    url: "https://www.valmor.dev",
+    description: "Sharing ideas and experiences in this blog.",
+    url: "https://www.valmor.dev/blog",
     type: "website",
     images: [
       {
-        url: "https://www.valmor.dev/img/logo512.png",
+        url: "%sveltekit.assets%/img/logo512.png",
         width: 512,
         height: 512,
         alt: "Valmor Logo",
