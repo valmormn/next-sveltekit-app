@@ -21,7 +21,7 @@
   <meta property="og:image:height" content="192" />
 </svelte:head>
 
-<section class="">
+<section class="curriculum">
   <aside class="aside">
     <div class="">
       <div class="">
@@ -43,7 +43,7 @@
         </tr>
         <tr>
           <th>📬</th>
-          <td><a href="mail://correio@valmor.dev">correio@valmor.dev</a></td>
+          <td><a href="mailto:correio@valmor.dev">correio@valmor.dev</a></td>
         </tr>
         <tr>
           <th>🌐</th>
@@ -56,7 +56,7 @@
         <tr>
           <th>📃</th>
           <td>
-            <a href="/doc/CurriculumVitae.pdf" download="">Download PDF</a>
+            <a href="/doc/valmor-curriculum-vitae-br-en.pdf" download="">Download PDF</a>
           </td>
         </tr>
       </tbody>
@@ -68,15 +68,14 @@
       Versatile engineer, holds a bachelor's degree in Naval Engineering from the Federal University
       of Rio de Janeiro (<a href="https://oceanica.ufrj.br" target="_blank">UFRJ</a>) with
       professional experience in the offshore and shipbuilding industry. Currently pursuing a second
-      degree in Electrical & Electronic Engineering at State University of Rio de Janeiro (<a
-        href="http://ele.eng.uerj.br"
-        target="_blank">UERJ</a
-      >) expecting to graduate in 2024.
+      degree in Electrical & Electronics Engineering (Evening Session) at the State University of
+      Rio de Janeiro (<a href="http://ele.eng.uerj.br" target="_blank">UERJ</a>) expecting to
+      graduate in 2024.
     </p>
     <p>
       Also experienced in running a small family business in the textile area, covering all the
-      essential areas of the business, from sales, through product design, production and customer
-      service.
+      essential areas of the business, from marketing, sales, through product design, production and
+      customer service.
     </p>
 
     <p>
@@ -84,23 +83,43 @@
       self-starter and a team player, always open to new challenges and opportunities.
     </p>
 
-    <h2>Education</h2>
+    <h2>Professional background</h2>
     <ul>
       <li>
-        Universidade do Estado do Rio de Janeiro
-        <ul><li>Bachelor of Electrical Engineering - Evening shift Prev. 2024</li></ul>
+        2012 to 2016 - Naval Engineer at Petróleo Brasileiro S/A
+        <ul>
+          <li>
+            As the owner's representative, supervised the construction and assembly of offshore units' hulls. Monitored tests required by the contract. Formulated documentation and
+            written record on a daily basis with regard to the progress, tracking the schedule and
+            guiding the project manager on delaying conditions.
+          </li>
+        </ul>
       </li>
       <li>
-        2012 - Universidade Federal do Rio de Janeiro
-        <ul><li>Bachelor of Oceanic & Naval Engineering</li></ul>
+        2011 to 2012 - Engineering Assistant at Estaleiro Mauá S/A
+        <ul>
+          <li>
+            Support in structural calculations and fulfilling the requirements from the
+            classification society to the shipyard’s engineering team.
+          </li>
+        </ul>
       </li>
+    </ul>
+
+    <h2>Academic Background</h2>
+    <ul>
+      <li>
+        B.S. in Electrical & Electronic Engineering at State University of Rio de Janeiro -
+        <ul><li>Evening shift. To be concluded in 2024.</li></ul>
+      </li>
+      <li>B.S. in Oceanic & Naval Engineering at Federal University of Rio de Janeiro, 2012</li>
     </ul>
 
     <h2>Skills</h2>
     <p>
-      Long-time Linux system user, familiar with the terminal, is an enthusiastic of web application
-      development, Internet of Things, graphical and 3D design tools in addition to current office
-      tools.
+      A long-time Linux user, familiar with the terminal, developer of web applications and Internet
+      of Things enthusiast. Also has skills in graphic design and 3D tools in addition to current
+      office tools.
     </p>
 
     <ul>
@@ -112,9 +131,8 @@
 
     <h2>Languages</h2>
     <p>
-      As a language lover and literature enthusiast, with daily practice has developed a good level
-      of both oral and written comprehension and production, and is always up for a pleasant
-      conversation.
+      As a language lover and literature enthusiast, has developed a good level of comprehension and
+      production in both oral and written forms, and is always up for a pleasant chat.
     </p>
     <ul>
       <li>English: Fluent and able to address any matter.</li>

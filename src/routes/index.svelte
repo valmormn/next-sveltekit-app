@@ -31,7 +31,7 @@
   <div class="hero-content text-center">
     <article class="prose">
       <h1>Hi, I'm Valmor.</h1>
-      <p>I'm an engineer and software developer who loves building things.</p>
+      <p>I'm an engineer, software developer and tech savvy who loves building things.</p>
     </article>
 
     <a href="/about">
