@@ -34,7 +34,7 @@
       <p>I'm an engineer, software developer and tech savvy who loves building things.</p>
     </article>
 
-    <a href="/about">
+    <a href="/about" class="tooltip" data-tip="click to go to about page">
       <div class="avatar dropShadow">
         <div class="w-64 rounded-full">
           <img src="img/meb.jpeg" alt="Valmor" />
