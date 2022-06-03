@@ -38,11 +38,21 @@
 /> -->
 
 <section class="">
-  <h1>Auth</h1>
+  <h1>Authentication</h1>
 
-  <Icon data={user} scale={10} />
+  <!-- <Icon data={user} scale={10} /> -->
 
   <div class="login-form">
+
+    <div class="form-commands">
+      <button class="btn btn-primary">
+        <img src="/img/google-logo-24.png" class="googleLogo">
+        Sign in with Google 
+      </button>
+      <!-- <button class="btn btn-secondary">Sign Up</button> -->
+      <!-- <button class="btn btn-ghost">Recover Access</button> -->
+    </div>
+  <div class="divider">OR</div>
     <div class="form-control">
       <!-- svelte-ignore a11y-label-has-associated-control -->
       <label class="label">
@@ -105,4 +115,8 @@
   .btn {
     margin: 12px;
   }
+
+	.googleLogo {
+		margin-right: 12px;
+}
 </style>
