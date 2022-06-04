@@ -23,8 +23,8 @@
 </script>
 
 <svelte:head>
-  <title>Valmor. About</title>
-  <meta name="description" content="About valmor.dev">
+  <title>About valmor.dev</title>
+  <meta name="description" content="About valmor.dev" />
   <meta property="og:title" content="Valmor" />
   <meta property="og:description" content="About valmor.dev" />
   <meta property="og:type" content="website" />
@@ -63,16 +63,22 @@
   </div>
 
   <article class="prose lg:prose-xl">
-    <h2 style="text-align: center;">Hi, I'm Valmor.</h2>
+    <h2 style="text-align: center;">Hi, I'm Valmor!</h2>
+
+    <p>I'm an engineer, software developer and tech savvy who loves building things.</p>
 
     <p>
       I'm long-time Linux user, familiar with the terminal and enthusiastic of web applications
-      development and internet of things.
+      development and the internet of things.
     </p>
 
     <p>
-      I've a degree in Naval Engineering having already worked on offshore construction. Currently
-      I'm pursuing a second degree in Electronics Engineerig.
+      I've a degree in Naval Engineering and currently I'm pursuing a second one in Electrical &
+      Electronics Engineerig.
+    </p>
+
+    <p>
+      If you want to know more about me, you can <a href="/about/curriculum">refer to my resume section</a>.
     </p>
 
     <p>I'm always open for a nice chat. You can reach me on my social networks.</p>

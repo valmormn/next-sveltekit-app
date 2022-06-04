@@ -3,7 +3,25 @@ const plugin = require('tailwindcss/plugin')
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            maxWidth: 'none',
+            // color: theme('colors.blueGray.500'),
+            // '> :first-child': { marginTop: '-' },
+            // '> :last-child': { marginBottom: '-' },
+            p: {
+              // fontSize: theme('fontSize.xl')[0],
+              // lineHeight: theme('lineHeight.9'),
+              // color: theme('colors.blueGray.600'),
+              marginTop: theme('spacing.0'),
+              marginBottom: theme('spacing.1'),
+            },
+          },
+        },
+      }),
+    }
 	},
 	plugins: [
     plugin(function ({ addBase, theme }) {
