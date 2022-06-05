@@ -43,6 +43,10 @@
   }
   */
 
+  .card-body {
+    padding: 1.2rem;
+  }
+
   img {
     max-width: 240px;
   }

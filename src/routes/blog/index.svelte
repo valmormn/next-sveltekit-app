@@ -31,7 +31,7 @@
 <section class="">
   <h1>Blog</h1>
 
-  <div class="cards-grid">
+  <div class="grid-container">
     <Card
       image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/600px-Ubuntu_logoib.svg.png"
       title="Make your terminal look awesome"
@@ -55,7 +55,7 @@
 </section>
 
 <style>
-  .cards-grid {
+  .grid-container {
     /* width: 100vw; */
     box-sizing: border-box;
     display: grid;
@@ -68,14 +68,14 @@
   }
 
   @media screen and (max-width: 900px) {
-    .cards-grid {
+    .grid-container {
       /* display: grid; */
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
   @media screen and (max-width: 590px) {
-    .cards-grid {
+    .grid-container {
       /* display: grid; */
       grid-template-columns: 1fr;
     }
