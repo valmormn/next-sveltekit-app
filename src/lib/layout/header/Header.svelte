@@ -58,7 +58,7 @@
     position: fixed;
     top: 0;
     z-index: 99;
-
+    --tw-bg-opacity: .95;
   }
 
   .menu {
