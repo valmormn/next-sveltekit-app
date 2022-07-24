@@ -45,9 +45,35 @@
 
 <svelte:head>
   <title>Valmor</title>
-  <meta name="description" content="Engineer, developer and tech savvy.">
-  <meta name="keyword" content="engineering, web, development">
-  <meta name="author" content="Valmor">
+
+  <!-- Primary Meta Tags -->
+  <title>valmor.dev</title>
+  <meta name="title" content="valmor.dev" />
+  <meta name="description" content="Engineer, developer and tech savvy." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://valmor.dev/" />
+  <meta property="og:title" content="valmor.dev" />
+  <meta property="og:description" content="Engineer, developer and tech savvy." />
+  <meta
+    property="og:image"
+    content="https://valmor.dev/img/logo192.png"
+  />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://valmor.dev/" />
+  <meta property="twitter:title" content="valmor.dev" />
+  <meta property="twitter:description" content="Engineer, developer and tech savvy." />
+  <meta
+    property="twitter:image"
+    content="https://valmor.dev/img/logo192.png"
+  />
+
+  <meta name="description" content="Engineer, developer and tech savvy." />
+  <meta name="keyword" content="engineering, web, development" />
+  <meta name="author" content="Valmor" />
   <meta property="og:title" content="Valmor" />
   <meta property="og:description" content="Engineer, developer and tech savvy." />
   <meta property="og:type" content="website" />
@@ -55,6 +81,16 @@
   <meta property="og:image" content="https://valmor.dev/img/logo192.png" />
   <meta property="og:image:width" content="192" />
   <meta property="og:image:height" content="192" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://valmor.dev" />
+  <meta name="twitter:title" content="valmor.dev" />
+  <meta name="twitter:description" content="" />
+  <meta
+    name="twitter:image"
+    content="https://avcustomize.com.br/icons/android-chrome-192x192.png"
+  />
+  <meta name="twitter:creator" content="Valmor Nascimento" />
 </svelte:head>
 
 <!-- <SvelteSeo
