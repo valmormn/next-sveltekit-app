@@ -1,9 +1,9 @@
-<script>
-  export const image;
+<script lang="ts">
+  export const image = '';
   //export const cardBtnActionTxt;
-  export const title;
-  export const description;
-  export const newPost = false;
+  export const title = "";
+  export const description = "";
+ // export const newPost = false;
 </script>
 
 <div class="card bg-base-100 shadow-lg">
