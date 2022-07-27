@@ -13,7 +13,7 @@
     const toggleAside = () => {
       console.log("toggleAside");
       let aside = {};
-      aside.el = document.getElementById("aside");
+      $: aside.el = document.getElementById("aside");
       aside.display = aside.el.style.display;
 
       let asideWidth = aside.el.offsetWidth;

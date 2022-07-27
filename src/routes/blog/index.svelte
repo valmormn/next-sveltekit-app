@@ -38,8 +38,8 @@
     <Card
       image={post.image}
       title={post.title}
-      description={post.description}
-      cardBtnActionTxt={post.actionTxt}
+      description={post.description}>
+    </Card>
     />
   {/each}
   </div>
